@@ -23,13 +23,20 @@
 
 
 // component shape styles
-// .auro-counter {
-//   ...
-// }
+.auro-counter {
+  align-items: center;
+  color:  var(--auro-color-background-darker);
+  display: flex;
+}
 
-.testClass {
-  color:  var(--auro-color-border-error-on-light);
-  border: 1px solid var(--auro-color-border-error-on-light);
-  display: inline-block;
-  padding: var(--auro-text-body-size-default);
+.auro-count {
+  text-align: center;;
+  width: 1.875rem;
+}
+
+.auro-counter-trigger {
+  cursor: pointer;
+  // &:hover {
+  //   color: var(--auro-color-ui-hover-on-light);
+  // }
 }

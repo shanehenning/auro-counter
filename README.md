@@ -1,6 +1,6 @@
 # auro-counter
 
-`<auro-counter>` is a [HTML custom element](https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_custom_elements) for the purpose of ...
+`<auro-counter>` is a [HTML custom element](https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_custom_elements) for the purpose of increasing or decreasing a number.
 
 ## UI development browser support
 
@@ -39,7 +39,7 @@ import "@alaskaairux/auro-counter";
 **Reference component in HTML**
 
 ```html
-<auro-counter>Hello World</auro-counter>
+<auro-counter></auro-counter>
 ```
 
 ## Install bundled assets from CDN
@@ -60,18 +60,17 @@ Since the legacy bundle includes many polyfills that are not needed by modern br
 
 ## auro-counter use cases
 
-The `<auro-counter>` element should be used in situations where users may:
+The `<auro-counter>` element should be used in situations where users may want to determine:
 
-* ...
-* ...
-* ...
+* the number of bags they need to have checked
+* the number of child tickets they would like to find for a flight
 
 ## API Code Examples
 
 Default auro-counter
 
 ```html
-<auro-counter>Hello World</auro-counter>
+<auro-counter></auro-counter>
 ```
 
 ## Development
